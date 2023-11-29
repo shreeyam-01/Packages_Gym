@@ -1,0 +1,87 @@
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url('img.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+table,th, td{
+    border: 1px solid #ffff;
+    padding: 10px;
+    font-size: 20px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td{
+    text-align: center;
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+th{
+    background-color: red;
+    color: #ffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3{
+    color: #ffff;
+    font-size: 24px;
+}
+
+h1.heading{
+    color: orangered;
+    padding: 8px;
+    text-transform: uppercase;
+    margin-top: -10px;
+    letter-spacing: 5px;
+    font-family: cursive;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    float: right;
+    margin-top: -3.5em;
+}
+
+ul li{
+    justify-content: space-between;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul li a{
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration-line: none;
+    padding: 1.4em;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: orange;
+}
+
+ul li a.home:hover{
+    background-color: darkorange;
+    color: white;
+}
+
+.home{
+    background-color: darkcyan;
+    border-radius: 100px;
+    width: 2px;
+}
+
+.last{
+    margin-bottom: 40px;
+}
+
+td:hover{
+    background-color: orangered;
+}
